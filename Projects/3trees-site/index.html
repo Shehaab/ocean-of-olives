@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>3 Trees Café · Lusaka</title>
+<link rel="icon" href="assets/logo.png">
+<style>html,body{margin:0;background:#F5F1EA;-webkit-font-smoothing:antialiased}a{color:#7A5A34;text-decoration:none}a:hover{color:#2F6B1F}</style>
+</head>
+<body>
+<main style="min-height:100vh;display:flex;justify-content:center;background:#F5F1EA;font-family:Figtree,system-ui,sans-serif;color:#2E2418">
+  <div style="width:100%;max-width:440px;padding:28px 22px 120px;display:flex;flex-direction:column;align-items:center;gap:26px;box-sizing:border-box">
+    <img src="assets/logo.png" alt="3 Trees" style="width:200px;height:auto;mix-blend-mode:multiply;margin-top:8px">
+    <div style="text-align:center;display:flex;flex-direction:column;gap:8px">
+      <h1 style="margin:0;font-family:'Young Serif',Georgia,serif;font-weight:400;font-size:30px;line-height:1.15;color:#6E4F2C">Welcome to 3 Trees</h1>
+      <p style="margin:0;font-size:15px;line-height:1.5;color:#5E5244;text-wrap:pretty">Warm coffee, comforting food and slow afternoons in the shade of Lusaka.</p>
+    </div>
+
+    <div style="width:100%;display:flex;flex-direction:column;gap:10px">
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;font-weight:600;color:#245818">
+        <span style="width:8px;height:8px;border-radius:50%;background:#2F6B1F"></span>Say hello to Yasmine, our friendly AI host. Chat or talk, she’s all ears ↓
+      </div>
+      <div id="vf-chat" style="width:100%;height:560px;border-radius:18px;overflow:hidden;background:#FFFFFF;border:1px solid #E6DED2;box-shadow:0 6px 18px rgba(110,79,44,.12)"></div>
+    </div>
+
+    <div style="width:100%;display:flex;flex-direction:column;gap:10px">
+      <a href="tel:+260978728652" style="display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;background:#FFFFFF;border:1px solid #E6DED2;color:#2E2418">
+        <span style="flex:none;width:40px;height:40px;border-radius:12px;background:#E3EEDD;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24"><path fill="#245818" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"></path></svg></span>
+        <span style="display:flex;flex-direction:column;gap:1px;flex:1"><span style="font-size:16px;font-weight:600">Call us</span><span style="font-size:13px;color:#7A6E60">+260 97 872 8652</span></span>
+        <span style="color:#A89A88">→</span>
+      </a>
+      <a href="https://www.facebook.com/3treesLSK/" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;background:#FFFFFF;border:1px solid #E6DED2;color:#2E2418">
+        <span style="flex:none;width:40px;height:40px;border-radius:12px;background:#F3ECE2;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#1877F2"></circle><path d="M15.1 15.5l.5-3.3h-3.1v-2.1c0-.9.4-1.8 1.9-1.8h1.4V5.5s-1.3-.2-2.5-.2c-2.6 0-4.2 1.5-4.2 4.3v2.6H6.2v3.3h2.9V24h3.4v-8.5h2.6z" fill="#FFFFFF"></path></svg></span>
+        <span style="display:flex;flex-direction:column;gap:1px;flex:1"><span style="font-size:16px;font-weight:600">Facebook</span><span style="font-size:13px;color:#7A6E60">@3treesLSK</span></span>
+        <span style="color:#A89A88">→</span>
+      </a>
+      <a href="https://www.instagram.com/3treescafezm/" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;background:#FFFFFF;border:1px solid #E6DED2;color:#2E2418">
+        <span style="flex:none;width:40px;height:40px;border-radius:12px;background:#F3ECE2;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24"><defs><linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"></stop><stop offset=".35" stop-color="#FA7E1E"></stop><stop offset=".6" stop-color="#D62976"></stop><stop offset="1" stop-color="#4F5BD5"></stop></linearGradient></defs><rect width="24" height="24" rx="6.5" fill="url(#igg)"></rect><rect x="5" y="5" width="14" height="14" rx="4.2" fill="none" stroke="#FFFFFF" stroke-width="1.8"></rect><circle cx="12" cy="12" r="3.3" fill="none" stroke="#FFFFFF" stroke-width="1.8"></circle><circle cx="16.3" cy="7.7" r="1.1" fill="#FFFFFF"></circle></svg></span>
+        <span style="display:flex;flex-direction:column;gap:1px;flex:1"><span style="font-size:16px;font-weight:600">Instagram</span><span style="font-size:13px;color:#7A6E60">@3treescafezm</span></span>
+        <span style="color:#A89A88">→</span>
+      </a>
+      <a href="https://search.google.com/local/writereview?placeid=ChIJ79c7YFaLQBkRnf9CjN4TNpw" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;background:#FFFFFF;border:1px solid #E6DED2;color:#2E2418">
+        <span style="flex:none;width:40px;height:40px;border-radius:12px;background:#F3ECE2;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"></path><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"></path><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"></path><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"></path></svg></span>
+        <span style="display:flex;flex-direction:column;gap:1px;flex:1"><span style="font-size:16px;font-weight:600">Leave a Google review</span><span style="font-size:13px;color:#7A6E60">Enjoyed your visit? Tell others</span></span>
+        <span style="color:#A89A88">→</span>
+      </a>
+    </div>
+
+    <p style="margin:6px 0 0;font-size:12px;color:#9A8D7C;text-align:center">3 Trees Café · Lusaka, Zambia</p>
+  </div>
+</main>
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6ab3be10992bf5e243bf38b2' },
+          url: 'https://general-runtime.voiceflow.com',
+          voice: {
+            url: 'https://runtime-api.voiceflow.com'
+          },
+          render: {
+            mode: 'embedded',
+            target: document.getElementById('vf-chat')
+          }
+        });
+      }
+      v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+</body>
+</html>
